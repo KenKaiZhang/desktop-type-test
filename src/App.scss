@@ -1,0 +1,13 @@
+$secondary-color: var(--secondary-color);
+
+.App {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: $secondary-color;
+}

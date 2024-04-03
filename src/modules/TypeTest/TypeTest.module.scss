@@ -1,0 +1,103 @@
+$primary-color: var(--primary-color);
+$secondary-color: var(--secondary-color);
+
+.typetest {
+    position: relative;
+    width: 85%;
+    height: auto;
+}  
+
+.test {
+    width: 100%;
+    height: 105px;
+    overflow: hidden;
+}
+
+.words {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    transition: 0.5s;
+}
+
+.word {
+    display: flex;
+    margin-right: 10px;
+    
+    p {
+        letter-spacing: 0.05em;
+        height: 35px;
+        font-size: 22px;
+        font-weight: 600;
+        color: #bebebe;
+        transition: 0.1s;
+    }
+}
+
+.right {
+    color: $primary-color !important;
+}
+
+.wrong {
+    color: #ff0000 !important;
+    text-decoration: underline;
+}
+
+.reset {
+    position: absolute;
+    z-index: 20;
+    bottom: -6.5em;
+    left: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $primary-color;
+    border-radius: 10px;
+    cursor: pointer;
+    transform: translate(-50%, -50%);
+
+    &:hover {
+        div {
+            opacity: 0.1;
+        }
+    }
+    &:active {
+        div {
+            opacity: 0.2;
+        }
+    }
+}
+
+.resethover { 
+    div {
+        opacity: 0.1;
+    }
+}
+
+.backdrop {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: $primary-color;
+    border-radius: 10px;
+    opacity: 0;
+    transition: 0.25s;
+}
+
+.caret {
+    &::before {
+        content: "";
+        border: 1.5px solid $primary-color;
+        border-radius: 25px;
+        animation: blink 1.5s infinite;
+    }
+}
+
+@keyframes blink {
+    0% { opacity: 1 }
+    50% { opacity: 0 }
+    100% { opacity: 1}
+}

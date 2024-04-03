@@ -1,0 +1,27 @@
+$primary-color: var(--primary-color);
+$secondary-color: var(--secondary-color);
+
+.results {
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5em;
+    text-align: center;
+    backdrop-filter: blur(5px);
+
+    p {
+        font-size: 14px;
+    }
+
+    h1 {
+        font-size: 48px;
+        color: $primary-color;
+    }
+}

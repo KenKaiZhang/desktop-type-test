@@ -1,0 +1,113 @@
+{    
+    "default": {
+        "name": "default",
+        "primary": "#000000",
+        "secondary": "#FFFFFF"
+    },
+    "dark": {
+        "name": "dark",
+        "primary": "#FFFFFF",
+        "secondary": "#000000"
+    },
+    "ocean blue": {
+      "name": "ocean blue",
+      "primary": "#003366",
+      "secondary": "#FFD700"
+    },
+    "lavender fields": {
+      "name": "lavender fields",
+      "primary": "#6A5ACD",
+      "secondary": "#FF6347"
+    },
+    "sunny day": {
+      "name": "sunny day",
+      "primary": "#FFA500",
+      "secondary": "#4682B4"
+    },
+    "forest green": {
+      "name": "forest green",
+      "primary": "#228B22",
+      "secondary": "#FF1493"
+    },
+    "cherry blossom": {
+      "name": "cherry blossom",
+      "primary": "#8B0000",
+      "secondary": "#20B2AA"
+    },
+    "golden sunset": {
+      "name": "golden sunset",
+      "primary": "#FFD700",
+      "secondary": "#4B0082"
+    },
+    "midnight sky": {
+      "name": "midnight sky",
+      "primary": "#191970",
+      "secondary": "#F08080"
+    },
+    "rose garden": {
+      "name": "rose garden",
+      "primary": "#FF1493",
+      "secondary": "#32CD32"
+    },
+    "autumn leaves": {
+      "name": "autumn leaves",
+      "primary": "#8B4513",
+      "secondary": "#00CED1"
+    },
+    "purple haze": {
+      "name": "purple haze",
+      "primary": "#800080",
+      "secondary": "#FF8C00"
+    },
+    "emerald isle": {
+      "name": "emerald isle",
+      "primary": "#00FF00",
+      "secondary": "#8A2BE2"
+    },
+    "tropical paradise": {
+      "name": "tropical paradise",
+      "primary": "#00CED1",
+      "secondary": "#FF4500"
+    },
+    "desert sand": {
+      "name": "desert sand",
+      "primary": "#F4A460",
+      "secondary": "#483D8B"
+    },
+    "snowy peaks": {
+      "name": "snowy peaks",
+      "primary": "#FFFFFF",
+      "secondary": "#696969"
+    },
+    "frosty morning": {
+      "name": "frosty morning",
+      "primary": "#87CEEB",
+      "secondary": "#B22222"
+    },
+    "crimson sunset": {
+      "name": "crimson sunset",
+      "primary": "#DC143C",
+      "secondary": "#00FA9A"
+    },
+    "mystic twilight": {
+      "name": "mystic twilight",
+      "primary": "#4B0082",
+      "secondary": "#FFA07A"
+    },
+    "golden fields": {
+      "name": "golden fields",
+      "primary": "#DAA520",
+      "secondary": "#8B008B"
+    },
+    "azure dreams": {
+      "name": "azure dreams",
+      "primary": "#007FFF",
+      "secondary": "#FF00FF"
+    },
+    "coral reef": {
+      "name": "coral reef",
+      "primary": "#FF7F50",
+      "secondary": "#00FF7F"
+    }
+  }
+  
